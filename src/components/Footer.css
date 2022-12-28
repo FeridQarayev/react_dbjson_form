@@ -1,0 +1,13 @@
+.footer{
+    background-color:lightsteelblue;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    margin-top: auto;
+}
+.footer__container{
+    width: 100%;
+}
+p{
+   text-align: center;
+}
