@@ -4,6 +4,8 @@ import * as Yup from "yup";
 import "./style.css";
 import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
+import Helmet from "react-helmet";
+
 
 function Add() {
   const subjectInputRef = useRef()
@@ -17,6 +19,10 @@ function Add() {
 
   return (
     <div className="form">
+      <Helmet>
+        <title>Add</title>
+        <meta name="description" content="Helmet application" />
+    </Helmet>
       <div>
         <Formik
           initialValues={{ subject: "", description: "", category: "" }}
