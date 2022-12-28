@@ -5,19 +5,17 @@ function CARD(item) {
   let data = item.item;
 
   return (
-    <Card sx={{ minWidth: 300, height: 300, display: "flex",justifyContent:"center",alignItems:"center" ,backgroundColor:"rgb(255,94,0)"}}>
+    <Card sx={{ minWidth: 300, height: 300, display: "flex",justifyContent:"center",alignItems:"center" ,backgroundColor:"rgb(255,94,0)",margin:10}}>
       <CardContent>
         <Typography sx={{ fontSize: 18 }} color="text.secondary" gutterBottom>
-          Name: {data.name}
+        Subject: {data.subject}
         </Typography>
         <br />
         <Typography sx={{ mb: 1.5,fontSize: 18 }} color="text.secondary">
-          Surname: {data.surname}
+        Description: {data.description}
         </Typography>
         <Typography variant="body2" sx={{ fontSize: 16 }}>
-          Email: {data.email}
-          <br />
-          Password: {data.password}
+        Category: {data.category}
         </Typography>
       </CardContent>
     </Card>
