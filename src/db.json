@@ -1,28 +1,10 @@
 {
   "users": [
     {
-      "id": 1,
-      "subject": "Ferid",
-      "description": "Qarayev",
-      "category": "ferid@gmail.com"
-    },
-    {
-      "id": 2,
-      "subject": "Ferid",
-      "description": "Qarayev",
-      "category": "ferid@gmail.com"
-    },
-    {
-      "id": 3,
-      "subject": "Ferid",
-      "description": "Qarayev",
-      "category": "ferid@gmail.com"
-    },
-    {
       "id": 4,
-      "subject": "Ferid",
-      "description": "Qarayev",
-      "category": "ferid@gmail.com"
+      "subject": "Gizlidi",
+      "description": "Silme!",
+      "category": "Iqtisadiyyat "
     },
     {
       "subject": "Susenibar",
@@ -31,22 +13,10 @@
       "id": 5
     },
     {
-      "subject": "dsdd",
-      "description": "Ibrahimova",
-      "category": "Idman",
-      "id": 6
-    },
-    {
-      "subject": "dsdd",
-      "description": "Ibrahimova",
-      "category": "Idman",
-      "id": 7
-    },
-    {
-      "subject": "",
-      "description": "ssss",
+      "subject": "Anar",
+      "description": "Mexfi",
       "category": "Turme Heyati",
-      "id": 8
+      "id": 6
     }
   ]
 }
