@@ -1,0 +1,9 @@
+.home{
+    display: flex;
+    justify-content: center;
+}
+.home__container{
+    min-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+}
